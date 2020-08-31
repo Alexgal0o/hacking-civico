@@ -18,16 +18,16 @@ def densidad_poblacional(poblacion, area_ciudad):
   densidad = poblacion / area_ciudad
   return densidad
 
-print("La densidad poblacional de León, Guanajuato es: ", densidad_poblacional(1238962,1219.76))
-print("La densidad poblacional del estado de Guanajuato es: ", densidad_poblacional(5853677,30608))
-print("La densidad poblacional de México es: ",densidad_poblacional(128649656,1964735))
+print("La densidad poblacional de León, Guanajuato es: ", densidad_poblacional(157862,1219.76),"hab/km^2")
+print("La densidad poblacional del estado de Guanajuato es: ", densidad_poblacional(5853677,30608),"hab/km^2")
+print("La densidad poblacional de México es: ",densidad_poblacional(128649656,1964735),"hab/km^2")
 
 
 ```
 
 ## OUTPUT
 ```
-La densidad poblacional de León, Guanajuato es:  129.42054174591723
-La densidad poblacional del estado de Guanajuato es:  191.24663486670153
-La densidad poblacional de México es:  65.47939340419956
+La densidad poblacional de León, Guanajuato es:  129.42054174591723 hab/km^2
+La densidad poblacional del estado de Guanajuato es:  191.24663486670153 hab/km^2
+La densidad poblacional de México es:  65.47939340419956 hab/km^2
 ```
