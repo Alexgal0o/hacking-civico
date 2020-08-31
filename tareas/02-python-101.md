@@ -18,7 +18,7 @@ def densidad_poblacional(poblacion, area_ciudad):
   densidad = poblacion / area_ciudad
   return densidad
 
-print("La densidad poblacional de León, Guanajuato es: ", densidad_poblacional(1238962,487))
+print("La densidad poblacional de León, Guanajuato es: ", densidad_poblacional(1238962,1219.76))
 print("La densidad poblacional del estado de Guanajuato es: ", densidad_poblacional(5853677,30608))
 print("La densidad poblacional de México es: ",densidad_poblacional(128649656,1964735))
 
